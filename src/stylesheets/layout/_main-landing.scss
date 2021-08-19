@@ -2,49 +2,34 @@
   margin: 0;
 }
 body {
-  background-color: #599894;
+  background-image: url("../../images/bird.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
 }
+
 .page {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-// .main-container__logo {
-//   // border: 2px solid red;
-//   margin-top: 70px;
-//   width: 50px;
-//   // margin-bottom: 0;
-//   background-color: brown;
-// }
+
 .main-container {
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // max-width: 290px;
   text-align: center;
   font-size: 12.8px;
   margin-left: auto;
   margin-right: auto;
-  // margin-top: 3%;
-  // padding-top: 20px;
-  // padding-bottom: 20px;
-  // &__logo {
-  //   border: 2px solid red;
-  //   margin-top: 70px;
-  //   width: 200px;
-  //   margin-bottom: 0;
   @media (min-width: 768px) {
     font-size: 16px;
-    // max-width: 331px;
   }
   &__logo {
-    // border: 2px solid red;
-    // margin-top: 70px;
     width: 300px;
-    // margin-bottom: 0;
   }
   &__title {
     color: black;
@@ -111,9 +96,6 @@ body {
       margin-top: 5%;
     }
   }
-}
-
-#buttonInv {
 }
 
 .blanketfy-btn {

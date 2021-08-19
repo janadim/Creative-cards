@@ -1,16 +1,11 @@
 import React from "react";
 // import "./stylesheets/App.scss"; No debe tener el importa llega desde index.js a todo el componente
-//import Header from './components/Header';
 import Footer from "./components/Footer";
 import { Link } from "react-router-dom";
-// import App from "./App";
 import giftlogo from "./images/giftlogo.gif";
+import white from "./images/white.jpg";
 
 class Landing extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   render() {
     return (
       <div className="page">
@@ -30,20 +25,20 @@ class Landing extends React.Component {
             <ul class="nav-container___list">
               <li class="nav-container___list--item">
                 <i class="far fa-object-group list-icon"></i>
-                <span class="list-text">Diseña</span>
+                <span class="list-text">Design</span>
               </li>
               <li class="nav-container___list--item">
                 <i class="far fa-keyboard list-icon"></i>
-                <span class="list-text">Rellena</span>
+                <span class="list-text">Fill</span>
               </li>
               <li class="nav-container___list--item">
                 <i class="fas fa-share-alt list-icon"></i>
-                <span class="list-text">Comparte</span>
+                <span class="list-text">Share</span>
               </li>
             </ul>
           </nav>
           <Link to="/card">
-            <span className="main-container__link">comenzar</span>
+            <span className="main-container__link">start</span>
           </Link>
         </main>
         <Footer />
