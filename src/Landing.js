@@ -3,7 +3,6 @@ import React from "react";
 import Footer from "./components/Footer";
 import { Link } from "react-router-dom";
 import giftlogo from "./images/giftlogo.gif";
-import white from "./images/white.jpg";
 
 class Landing extends React.Component {
   render() {
@@ -29,7 +28,7 @@ class Landing extends React.Component {
               </li>
               <li class="nav-container___list--item">
                 <i class="far fa-keyboard list-icon"></i>
-                <span class="list-text">Fill</span>
+                <span class="list-text">Complete</span>
               </li>
               <li class="nav-container___list--item">
                 <i class="fas fa-share-alt list-icon"></i>
