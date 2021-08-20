@@ -14,11 +14,10 @@ class Landing extends React.Component {
             src={giftlogo}
             alt="profile-cards"
           />
-          <h2 class="main-container__title">
-            Reactiva tu presente, diseña tu futuro
-          </h2>
+          <h2 class="main-container__title">Digital business cards</h2>
           <p class="main-container__text">
-            Crea mejores contactos profesionales de forma fácil y cómoda
+            Create a customizable business card for any occasion{" "}
+            <span>and share it with your network</span>
           </p>
           <nav class="nav-container">
             <ul class="nav-container___list">

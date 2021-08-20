@@ -19,10 +19,10 @@ function Inputs(props) {
   return (
     <div className="fill-container">
       <label>
-        Nombre completo
+        Full name
         <input
           className="js-form formies js-name"
-          placeholder="Blanket Team"
+          placeholder="Ada Lovelace"
           type="text"
           name="name"
           value={props.data.name}
@@ -30,17 +30,17 @@ function Inputs(props) {
         />
       </label>
       <label>
-        Puesto
+        Profession
         <input
           className="js-form formies js-job"
-          placeholder="Frontend Unicorn"
+          placeholder="Frontend Developer"
           type="text"
           name="job"
           value={props.data.job}
           onChange={handleInputs}
         />
       </label>
-      <p>Imagen de perfil</p>
+      <p>Profile image</p>
 
       <div>
         <GetAvatar
@@ -56,7 +56,7 @@ function Inputs(props) {
           E-mail
           <input
             className="js-form formies js-mail"
-            placeholder="blanket@blanket.com"
+            placeholder="ada@lovelace.com"
             type="email"
             id="email"
             name="email"
@@ -65,7 +65,7 @@ function Inputs(props) {
           />
         </p>
         <p>
-          Teléfono
+          Phone
           <input
             className="js-form js-preview-phone formies js-phone"
             placeholder="000000000"
@@ -80,7 +80,7 @@ function Inputs(props) {
           Linkedin
           <input
             className="js-form formies js-linkedin"
-            placeholder="Blanket.Linkedin"
+            placeholder="adalovelace"
             type="text"
             name="linkedin"
             value={props.data.linkedin}
@@ -91,7 +91,7 @@ function Inputs(props) {
           Github
           <input
             className="js-form formies js-github"
-            placeholder="Blanket.GitHub"
+            placeholder="alovelace"
             type="text"
             name="github"
             value={props.data.github}

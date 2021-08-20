@@ -13,21 +13,33 @@
     height: 80px;
     padding-left: 41px;
   }
-  &-small {
+  &--small {
     font-size: 14px;
     line-height: 20px;
-    color: $white-two;
+    color: rgb(207, 206, 206);
     padding-top: 18px;
+
     @media (min-width: 768px) {
       padding-top: 0;
     }
   }
-  &-logo {
-    margin-top: 12px;
-    width: 103px;
-    @media (min-width: 768px) {
-      padding: 10px 40px 10px 0;
-      margin-top: 0;
+  &--logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    &__name {
+      color: rgb(77, 129, 115);
+      font-size: 14px;
+      font-style: italic;
+    }
+    &__icon {
+      margin-top: 12px;
+      width: 103px;
+      @media (min-width: 768px) {
+        padding: 10px 40px 10px 0;
+        margin-top: 0;
+      }
     }
   }
 }

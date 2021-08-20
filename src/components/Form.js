@@ -17,7 +17,7 @@ class Form extends React.Component {
       <form onSubmit={handleForm} className="form" id="cleanForm">
         <Collapsible
           classIcon={"far fa-object-group list-icon2b"}
-          className={"diseña"}
+          className={"design"}
           classButtonUp={"js-arrow-up-d"}
           classButtonDown={"js-arrow-down-d"}
         >
@@ -28,7 +28,7 @@ class Form extends React.Component {
         </Collapsible>
         <Collapsible
           classIcon={"far fa-keyboard list-icon2b"}
-          className={"rellena"}
+          className={"complete"}
           classButtonUp={"js-arrow-up-f"}
           classButtonDown={"js-arrow-down-f"}
         >
@@ -40,7 +40,7 @@ class Form extends React.Component {
         </Collapsible>
         <Collapsible
           classIcon={"fas fa-share-alt list-icon2b"}
-          className={"comparte"}
+          className={"share"}
           classButtonUp={"js-arrow-up-s"}
           classButtonDown={"js-arrow-down-s"}
         >
