@@ -16,22 +16,22 @@ class Landing extends React.Component {
           />
           <h2 class="main-container__title">Digital business cards</h2>
           <p class="main-container__text">
-            Create a customizable business card for any occasion{" "}
-            <span>and share it with your network</span>
+            Create a customizable business card for any occasion
+            <span> and share it with your network</span>
           </p>
           <nav class="nav-container">
-            <ul class="nav-container___list">
-              <li class="nav-container___list--item">
-                <i class="far fa-object-group list-icon"></i>
-                <span class="list-text">Design</span>
+            <ul class="nav-container__list">
+              <li class="nav-container__list--item">
+                <i class="far fa-object-group nav-container__list--icon"></i>
+                <span class="nav-container__list--text">Design</span>
               </li>
-              <li class="nav-container___list--item">
-                <i class="far fa-keyboard list-icon"></i>
-                <span class="list-text">Complete</span>
+              <li class="nav-container__list--item">
+                <i class="far fa-keyboard nav-container__list--icon"></i>
+                <span class="nav-container__list--text">Complete</span>
               </li>
-              <li class="nav-container___list--item">
-                <i class="fas fa-share-alt list-icon"></i>
-                <span class="list-text">Share</span>
+              <li class="nav-container__list--item">
+                <i class="fas fa-share-alt nav-container__list--icon"></i>
+                <span class="nav-container__list--text">Share</span>
               </li>
             </ul>
           </nav>

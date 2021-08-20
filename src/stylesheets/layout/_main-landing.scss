@@ -16,7 +16,7 @@ body {
 }
 
 .main-container {
-  height: 80%;
+  height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,44 +36,12 @@ body {
     font-family: $landing-title;
     font-weight: 900;
     font-size: 19px;
+    margin-bottom: 20px;
     @media (min-width: 768px) {
       font-size: 24px;
     }
   }
-
-  .nav-container {
-    border: solid #5ce7e7 1.6px;
-    border-radius: 4px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    &___list {
-      display: flex;
-      flex-direction: row;
-      .nav-container___list--item {
-        display: flex;
-        flex-direction: column;
-        width: 80px;
-        font-size: 12.8px;
-        @media (min-width: 768px) {
-          font-size: 16px;
-        }
-        .list-icon {
-          color: #f15fd6;
-          font-size: 22.4px;
-          @media (min-width: 768px) {
-            font-size: 28px;
-          }
-        }
-      }
-    }
-  }
-  .main-container__link {
+  &__link {
     color: $white-three;
     font-weight: 600;
     font-size: 16px;
@@ -81,10 +49,6 @@ body {
     border-radius: 21px;
     text-transform: uppercase;
     padding: 10px 20px;
-    height: 42px;
-    width: 129px;
-    margin-top: 20%;
-    margin-bottom: 10%;
     transition: background-color ease 0.5s;
     transition: all 0.5s ease-in-out;
     &:hover {
@@ -96,30 +60,35 @@ body {
       margin-top: 5%;
     }
   }
-}
 
-.blanketfy-btn {
-  width: 150px;
-  height: 150px;
-  border: solid 2px #fae5e7;
-  border-radius: 25px;
-  background-color: $white-three;
-  position: absolute;
-  right: 3%;
-  top: 5%;
-  transition: background-color ease 0.5s;
-  transition: all 0.5s ease-in-out;
-  &:hover {
-    color: rgb(235, 117, 186);
-    background-color: #fae5e7;
-    transform: scale(1.1);
-    cursor: pointer;
+  .nav-container {
+    border: solid #000000 2.5px;
+    border-radius: 15px;
+    width: 75%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    &__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      &--item {
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+        font-size: 12.8px;
+        @media (min-width: 768px) {
+          font-size: 16px;
+        }
+      }
+      &--icon {
+        color: #f15fd6;
+        font-size: 22.4px;
+        @media (min-width: 768px) {
+          font-size: 28px;
+        }
+      }
+    }
   }
-  .blanketfy-img-btn {
-    width: 95%;
-  }
-}
-
-.blanky-background {
-  background-color: #f9d0eb;
 }
