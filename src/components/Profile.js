@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import defaultAvatar from "../images/bowie.png";
+import defaultAvatar from "../images/ada.jpg";
 
 class Profile extends React.Component {
   render() {
