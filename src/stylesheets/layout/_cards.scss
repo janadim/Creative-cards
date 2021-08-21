@@ -58,7 +58,7 @@
     background-color: $darkgreen;
   }
   .cards_box-socialmedia--item {
-    border: $lightgreen solid 2px;
+    border: $lightbrown solid 2px;
   }
   .cards_box-icon-social {
     color: $darkgreen;
@@ -146,7 +146,7 @@
       align-items: center;
       width: 32px;
       height: 32px;
-      border: $lightgreen solid 2px;
+      border: $lightbrown solid 2px;
       border-radius: 32px;
     }
   }
@@ -217,7 +217,7 @@
   margin-top: 7px;
   margin-bottom: 20px;
   height: 30px;
-  border: 1px solid $lightgreen;
+  border: 1px solid $lightbrown;
   padding-left: 10px;
 }
 ::placeholder {
@@ -239,7 +239,7 @@
 .button-white {
   width: 30px;
   height: 30px;
-  border: 1px solid $lightgreen;
+  border: 1px solid $lightbrown;
   background-size: cover;
   background-position: center;
   background-color: white;
@@ -290,7 +290,7 @@
 .new-card {
   width: 199px;
   height: 50px;
-  background-color: #d5d5d5;
+  background-color: #623816;
   border-radius: 10px;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.32);
   margin-bottom: 30px;
@@ -300,9 +300,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (min-width: 768px) {
-    background-color: #623816;
-  }
   > i {
     margin-right: 8px;
   }
