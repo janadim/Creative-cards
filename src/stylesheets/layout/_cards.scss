@@ -1,6 +1,7 @@
 .main_container {
   display: flex;
   flex-direction: column;
+
   @media (min-width: 768px) {
     flex-direction: row;
     background-color: $white-four;
@@ -12,8 +13,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  // background-image: url("../../images/pinas.png");
-  // background-size: cover;
+  background-image: url("../../images/marmol.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   :hover {
     cursor: pointer;
@@ -35,8 +37,8 @@
     text-transform: uppercase;
     font-family: $text;
     font-size: 12px;
-    color: #54585a;
-    background-color: #bfcdd0;
+    color: #493d39;
+    background-color: #ddd2c6;
     margin: 38px 200px 20px 45px;
     height: 30px;
     width: 75px;
@@ -167,10 +169,9 @@
   padding-left: 40px;
   padding-right: 30px;
   padding-top: 27px;
-  color: $gunmetal;
+  color: rgb(63, 39, 20);
   font-size: 18px;
   background-color: white;
-  font-family: "OpenSans";
   @media (min-width: 768px) {
     background-color: $white-four;
   }
@@ -229,7 +230,7 @@
   align-items: center;
   width: 140px;
   height: 30px;
-  background-color: #f15fd6;
+  background-color: #f3c396;
   color: white;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -262,7 +263,7 @@
   }
 }
 .list-icon2b {
-  color: #f15fd6;
+  color: #f3c396;
   margin-right: 10px;
   font-size: 18px;
 }
@@ -300,7 +301,7 @@
   justify-content: center;
   align-items: center;
   @media (min-width: 768px) {
-    background-color: #f15fd6;
+    background-color: #623816;
   }
   > i {
     margin-right: 8px;

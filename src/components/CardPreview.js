@@ -1,5 +1,5 @@
 import Icons from "./Icons";
-import defaultAvatar from "../images/bowie.png";
+import defaultAvatar from "../images/ada.jpg";
 
 function CardPreview(props) {
   // aqui hemos creado la misma variable que para el cuadradito con el condicional dentro, para que coja el defaultAvatar o la imagen que le queremos subir
@@ -24,7 +24,7 @@ function CardPreview(props) {
         <div className="cards-box--text">
           <h2 className="cards_box--text--title js-preview-name">
             {/* para pintar en la card preview */}
-            {props.data.name === "" ? "Nombre Apellidos" : props.data.name}
+            {props.data.name === "" ? "Name Surname" : props.data.name}
           </h2>
           <h2 className="cards_box--text--subtitle js-preview-job">
             {props.data.job === "" ? "Front-End Developer" : props.data.job}

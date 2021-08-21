@@ -36,7 +36,9 @@ class Landing extends React.Component {
             </ul>
           </nav>
           <Link to="/card">
-            <span className="main-container__link">start</span>
+            <button type="button" className="main-container__link">
+              start
+            </button>
           </Link>
         </main>
         <Footer />

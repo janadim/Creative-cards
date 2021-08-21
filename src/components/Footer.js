@@ -1,5 +1,4 @@
-import logo2 from "../images/logo.png";
-import logo from "../images/logo.png";
+import giftlogo from "../images/giftlogo.gif";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -13,7 +12,7 @@ function Footer() {
           <small className="footer--logo__name">
             Created by Jana D. Titarchuk
           </small>
-          <img className="footer--logo__icon" src={logo} alt="Logo" />
+          <img className="footer--logo__icon" src={giftlogo} alt="Logo" />
         </a>
       </Link>
     </footer>

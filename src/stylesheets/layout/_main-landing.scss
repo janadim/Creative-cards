@@ -1,18 +1,42 @@
 * {
   margin: 0;
 }
-body {
-  background-image: url("../../images/pinas.png");
-  // background-repeat: no-repeat;
-  // background-position-x: center;
-  // background-size: cover;
-}
+$btn-font: "Recursive", sans-serif;
+$btn-font-size: 3.25rem;
+$btn-border: none;
+$btn-border-radius: 22px;
+$btn-font-color: white;
+$btn-bg-gradient: linear-gradient(
+  to left top,
+  #8d5439 0%,
+  #584137 50%,
+  #8d5439 100%
+);
+$box-shadow: 0px 0px 20px rgba(243, 222, 203, 0.5),
+  0px 5px 5px -1px rgba(209, 170, 133, 0.246);
+
+$box-shadow-inset: inset 4px 4px 8px rgba(255, 227, 175, 0.522),
+  inset -4px -4px 8px rgba(195, 156, 93, 0.357);
+
+$text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc, 0 0 30px #82bedc,
+  0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
+
+//hover:
+
+$box-shadow-hvr: 0px 5px 50px rgba(214, 238, 211, 0.75),
+  0px 10px 10px -4px rgba(190, 165, 141, 0.36);
+
+$box-shadow-inset-hvr: inset 4px 4px 8px rgba(255, 231, 175, 0.522),
+  inset -4px -4px 8px rgba(216, 131, 19, 0.357);
 
 .page {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: url("../../images/marmol.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-container {
@@ -29,65 +53,88 @@ body {
     font-size: 16px;
   }
   &__logo {
-    width: 300px;
+    width: 150px;
   }
   &__title {
-    color: black;
+    color: rgb(83, 48, 32);
     font-family: $landing-title;
     font-weight: 900;
     font-size: 19px;
     margin-bottom: 20px;
     @media (min-width: 768px) {
-      font-size: 24px;
+      font-size: 28px;
     }
   }
   &__link {
     color: $white-three;
     font-weight: 600;
     font-size: 16px;
-    background-color: #f15fd6;
-    border-radius: 21px;
+    border-radius: 30px;
     text-transform: uppercase;
-    padding: 10px 20px;
-    transition: background-color ease 0.5s;
-    transition: all 0.5s ease-in-out;
+    padding: 15px 30px;
+    box-shadow: $box-shadow, $box-shadow-inset;
+    background: $btn-bg-gradient;
+    background-size: 200% 200%;
+    animation: slideout 0.5s forwards;
+    position: relative;
+    transition: all 0.5s ease;
     &:hover {
-      background-color: #5ce7e7;
-      color: #f15fd6;
-      transform: scale(1.1);
+      box-shadow: $box-shadow-hvr, $box-shadow-inset-hvr;
+      animation: slidein 0.5s forwards;
     }
-    @media (min-width: 768px) {
-      margin-top: 5%;
+    &:active {
+      text-shadow: $text-shadow;
+      transform: translateY(8px) scale(0.93);
+      transition: all 0.1s ease-in;
     }
   }
+  @keyframes slidein {
+    from {
+      background-position: 0% 0%;
+    }
+    to {
+      background-position: 100% 100%;
+    }
+  }
+  @keyframes slideout {
+    from {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  }
+  @media (min-width: 768px) {
+    margin-top: 5%;
+  }
+}
 
-  .nav-container {
-    border: solid #000000 2.5px;
-    border-radius: 15px;
-    width: 75%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    &__list {
+.nav-container {
+  border: solid rgb(195, 136, 69) 2.5px;
+  border-radius: 15px;
+  width: 75%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &--item {
       display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      &--item {
-        display: flex;
-        flex-direction: column;
-        width: 80px;
-        font-size: 12.8px;
-        @media (min-width: 768px) {
-          font-size: 16px;
-        }
+      flex-direction: column;
+      width: 80px;
+      font-size: 12.8px;
+      @media (min-width: 768px) {
+        font-size: 16px;
       }
-      &--icon {
-        color: #f15fd6;
-        font-size: 22.4px;
-        @media (min-width: 768px) {
-          font-size: 28px;
-        }
+    }
+    &--icon {
+      color: #864e29;
+      font-size: 22.4px;
+      @media (min-width: 768px) {
+        font-size: 28px;
       }
     }
   }
