@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.8b6a80c2.chunk.css",
-    "main.js": "./static/js/main.d65f1f7e.chunk.js",
-    "main.js.map": "./static/js/main.d65f1f7e.chunk.js.map",
+    "main.css": "./static/css/main.206b3314.chunk.css",
+    "main.js": "./static/js/main.dff6c401.chunk.js",
+    "main.js.map": "./static/js/main.dff6c401.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ded6da72.js",
     "runtime-main.js.map": "./static/js/runtime-main.ded6da72.js.map",
     "static/js/2.f857cd69.chunk.js": "./static/js/2.f857cd69.chunk.js",
     "static/js/2.f857cd69.chunk.js.map": "./static/js/2.f857cd69.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.8b6a80c2.chunk.css.map": "./static/css/main.8b6a80c2.chunk.css.map",
+    "static/css/main.206b3314.chunk.css.map": "./static/css/main.206b3314.chunk.css.map",
     "static/js/2.f857cd69.chunk.js.LICENSE.txt": "./static/js/2.f857cd69.chunk.js.LICENSE.txt",
     "static/media/ada.c163ab42.jpg": "./static/media/ada.c163ab42.jpg",
-    "static/media/bowie.a513c07b.png": "./static/media/bowie.a513c07b.png",
     "static/media/giftlogo.172e79f0.gif": "./static/media/giftlogo.172e79f0.gif",
     "static/media/App.scss": "./static/media/marmol.a219291e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ded6da72.js",
     "static/js/2.f857cd69.chunk.js",
-    "static/css/main.8b6a80c2.chunk.css",
-    "static/js/main.d65f1f7e.chunk.js"
+    "static/css/main.206b3314.chunk.css",
+    "static/js/main.dff6c401.chunk.js"
   ]
 }
