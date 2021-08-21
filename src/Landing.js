@@ -14,7 +14,7 @@ class Landing extends React.Component {
             src={giftlogo}
             alt="profile-cards"
           />
-          <h2 class="main-container__title">Digital business cards</h2>
+          <h1 class="main-container__title">Digital business cards</h1>
           <p class="main-container__text">
             Create a customizable business card for any occasion
             <span> and share it with your network</span>

@@ -76,7 +76,7 @@ $box-shadow-inset-hvr: inset 4px 4px 8px rgba(255, 231, 175, 0.522),
     background: $btn-bg-gradient;
     background-size: 200% 200%;
     animation: slideout 0.5s forwards;
-    position: relative;
+    // position: relative;
     transition: all 0.5s ease;
     &:hover {
       box-shadow: $box-shadow-hvr, $box-shadow-inset-hvr;
@@ -116,7 +116,7 @@ $box-shadow-inset-hvr: inset 4px 4px 8px rgba(255, 231, 175, 0.522),
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 25px;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
   &__list {
     display: flex;
     flex-direction: row;
