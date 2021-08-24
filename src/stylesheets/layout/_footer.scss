@@ -5,10 +5,11 @@
   flex-direction: column;
   align-items: center;
   border: 1px solid $white-two;
-  height: 20%;
+  bottom: 0;
+  height: 10%;
   @media (min-width: 768px) {
     flex-direction: row;
-    height: 80px;
+    height: 3%;
     padding-left: 41px;
   }
   &--small {
