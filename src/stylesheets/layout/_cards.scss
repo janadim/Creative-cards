@@ -281,7 +281,7 @@
 }
 .sharebutton {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   border-bottom: 1px solid $white-two;
   :hover {
     cursor: pointer;
@@ -345,6 +345,9 @@
 .js-hidden {
   display: none;
 }
+.js-hidden::before {
+  display: none;
+}
 
 .fill-container {
   color: $darkgreen;
@@ -369,4 +372,11 @@
   padding-bottom: 30px;
   border-bottom: 1px solid $white-two;
   font-weight: bold;
+}
+.card-done {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid $white-two;
 }
