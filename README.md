@@ -1,14 +1,12 @@
 ## Creative Cards
 
-
 This app allows the user to create a digital card with their data: full name, position and links to their contact details and social media profiles.
 
 The used technologies are html, sass, javascript partials compiled with node/gulp and React.
 
+![screenshot of the design ](https://raw.githubusercontent.com/janadim/Creative-cards/main/src/images/Capture.landing.PNG)
 
-![screenshot of our design ]()
-
-![screenshot form ]()
+![screenshot form ](https://raw.githubusercontent.com/janadim/Creative-cards/main/src/images/Capture.form.PNG)
 
 **- Requirements**
 
@@ -70,4 +68,3 @@ This runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 You can also create a docs folder by running #### `npm run docs`
-
