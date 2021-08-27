@@ -4,16 +4,14 @@ This app allows the user to create a digital card with their data: full name, po
 
 The used technologies are html, sass, javascript partials compiled with node/gulp and React.
 
-![screenshot of the design ](https://raw.githubusercontent.com/janadim/Creative-cards/main/src/images/Capture.landing.PNG)
-
-![screenshot form ](https://raw.githubusercontent.com/janadim/Creative-cards/main/src/images/Capture.form.PNG)
-
 **- Requirements**
 
 The project consists of 2 pages
 
 - a welcome page
+  ![screenshot of the design ](https://raw.githubusercontent.com/janadim/Creative-cards/main/src/images/Capture.landing.PNG)
 - a page with the application to create cards
+  ![screenshot form ](https://raw.githubusercontent.com/janadim/Creative-cards/main/src/images/Capture.form.PNG)
 
 The application works this way:
 
