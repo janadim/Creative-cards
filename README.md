@@ -6,9 +6,9 @@ This app allows the user to create a digital card with their data: full name, po
 The used technologies are html, sass, javascript partials compiled with node/gulp and React.
 
 
-![screenshot of our design ](https://raw.githubusercontent.com/NurAhissami/ecode/master/landing.png)
+![screenshot of our design ]()
 
-![screenshot form ](https://raw.githubusercontent.com/NurAhissami/ecode/master/form.png)
+![screenshot form ]()
 
 **- Requirements**
 
